@@ -8,6 +8,7 @@ def load_library(file_path)
     hash[key] = {} 
     hash[key][:english] = value[0]
     hash[key][:japanese] = value[1]
+    binding.pry
  end 
  hash
 end
